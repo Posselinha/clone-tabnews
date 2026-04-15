@@ -1,9 +1,16 @@
+import Head from "next/head";
+
 function Home() {
   return (
-    <h1>
-      Nico, sou muito grato por te conhecer. Se você ver essa mensagem, mande
-      seu Ryuji Sakamoto FOR REAL!!?
-    </h1>
+    <>
+      <Head>
+        <title>Teste de titulo</title>
+      </Head>
+
+      <h1>
+        Testando metadados
+      </h1>
+    </>
   );
 }
 
